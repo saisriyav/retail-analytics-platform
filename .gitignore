@@ -207,5 +207,10 @@ marimo/_lsp/
 __marimo__/
 # Ignore raw retail data
 data/raw/*.csv
-
-    
+data/raw/*.xlsx
+data/raw/*.zip
+data/raw/*.parquet
+data/raw/*
+!data/raw/.gitkeep
+# Ignore local databases
+data/sqlite/*.db
